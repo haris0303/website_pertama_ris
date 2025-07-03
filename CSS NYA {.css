@@ -1,0 +1,81 @@
+body {
+  background-color: #efeeee;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  padding: 45px;
+}
+
+.biodata {
+  background-color: #089ce6;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px #000000;
+  border-radius: 10px;
+}
+
+h1 {
+  color: hsl(0, 0%, 0%);
+  text-align: center ;
+}
+
+p {
+  font-size: 15px;
+  color: #333;
+}
+
+.biodata a:not(.button-link) {
+    display: inline-block;
+    background-color: lab(48.69% 74.01 60.43); 
+    color: white;
+    padding: 12px 25px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; 
+    margin-bottom: 15px; 
+    transition: background-color 0.5s ease;
+}
+.biodata a:not(.button-link):hover {
+    background-color: hsl(4, 89%, 21%);
+}
+
+.button-link {
+    display: inline-block; 
+    background-color: #007bff; 
+    color: white; 
+    padding: 12px 25px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    border-radius: 8px; 
+    border: none; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+.button-link:hover {
+    background-color: #0056b3; 
+}
+
+.biodata a:not(.button-link) {
+    display: inline-block;
+    background-color: rgb(250, 10, 10); 
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; 
+    margin-bottom: 15px; 
+    transition: background-color 0.5s ease;
+}
+.biodata a:not(.button-link):hover {
+    background-color: hwb(0 2% 60% / 0.906);
+}
